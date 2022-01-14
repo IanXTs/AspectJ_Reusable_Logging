@@ -1,0 +1,7 @@
+Please convert the project to an AspectJ project when running in eclipse console
+To run the code on command line, I have exported the code into .jar, you could simply use 
+java -jar Task2.java or java -jar Task3.java to run my program 
+Logging could be distinguished by command line prompt
+Loggers are separated into into Logger.aj into three separate modules create account, create customer, and method call(task 2)
+The logger interface is used for reusable logging users can simply add any @Log to any method call that wants to be logged(task 3)
+
